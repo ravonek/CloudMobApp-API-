@@ -1,0 +1,109 @@
+/* .main-text
+    {
+        color:red;
+
+    }
+#text-in-p
+    {
+        color:aqua;
+    }
+
+div p b, div i
+    {
+        color:green;
+    }
+
+div, .name-class, #id, div p
+    {
+        color:blueviolet;
+    } */
+
+    .main-link
+    {
+        color:red;
+        text-decoration: none;
+    }
+    .main-link:hover
+        {
+            color:blue;
+            text-decoration: underline;
+            text-decoration-color: blue;
+            cursor:pointer;
+        }
+    .main-link:active
+        {
+            text-decoration:line-through;
+        }
+
+    .main-link:visited
+        {
+            color:grey;
+        }
+
+        
+    input{color:blue}
+    input:disabled
+    {
+        color:black;
+    }
+    input:focus
+        {
+            color:red;
+
+        }
+
+
+    p.text:not(:empty)
+        {
+            color:grey
+        }
+
+
+    p.text:empty::after
+    {
+        content: attr(title);
+    }
+
+    #some_id::before
+        {
+            content: '123';
+        }
+    
+    p.main-link::first-line
+    {
+        color:green;
+    }
+/*     
+    p
+    {
+        text-decoration:line-through;
+    } */
+
+    p:first-of-type
+    {
+        text-decoration:line-through;
+    }
+    p:last-of-type
+    {
+        text-decoration: underline;
+    }
+
+
+    #third
+        {
+            /* background-color: darkcyan;
+            background-image:url("https://static.wikia.nocookie.net/brainrotnew/images/0/07/Bombardiro_crocodilo_.webp/revision/latest?cb=20250321132902");
+            background-repeat:no-repeat;
+            background-position:center ; */
+            color:aqua;
+            background: #7f9ab3 url("https://static.wikia.nocookie.net/brainrotnew/images/0/07/Bombardiro_crocodilo_.webp/revision/latest?cb=20250321132902");
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+
+    #second
+        {
+            height: 2000px;
+        }
